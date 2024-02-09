@@ -12,13 +12,13 @@ private:
 public:
     // Constructor
     WaterBottle(string comp, string col, int liters, int milliliters) {
-        company = c;
+        company = comp;
         color = col;
         capacityLiters = liters;
         capacityMilliliters = milliliters;
     }//end of public
     void setCompany(string comp) {
-        company = c;
+        company = comp;
     }
     string getCompany() {
         return company;
